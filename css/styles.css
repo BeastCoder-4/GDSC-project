@@ -1,0 +1,193 @@
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif ;
+    font-size: 1.25em;
+    background-color: rgb(232, 225, 216);
+}
+
+h1 {
+    font-size: 5.625rem;
+    font-family: 'Dancing Script', cursive;
+    color: bisque;
+    margin: 50px auto 0 auto;
+    
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #305656;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+    
+}
+
+a {
+    color: bisque;
+    text-decoration: none;
+}
+
+p {
+    font-size: 20px;
+    color: #40514E;
+    
+}
+
+.top-container {
+    background-color: rgb(47,56,57);
+    position: relative;
+    padding-top: 100px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 400px;
+    top: 50px;
+    
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 400px;
+    bottom: 300px;
+}
+
+hr {
+    height: 0;
+    width: 10%;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: rgb(8, 41, 54);
+    border-width: 5px;
+    margin: 50px auto 50px auto;
+}
+
+.bottom-container {
+    background-color: rgb(47,56,57);
+    line-height: 2;
+}
+
+.btn {
+    background: #2f3739;
+    background-image: -webkit-linear-gradient(top, #2f3739, #2980b9);
+    background-image: -moz-linear-gradient(top, #2f3739, #2980b9);
+    background-image: -ms-linear-gradient(top, #2f3739, #2980b9);
+    background-image: -o-linear-gradient(top, #2f3739, #2980b9);
+    background-image: linear-gradient(to bottom, #2f3739, #2980b9);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #e6e1da;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #1d445c;
+    background-image: -webkit-linear-gradient(top, #1d445c, #3498db);
+    background-image: -moz-linear-gradient(top, #1d445c, #3498db);
+    background-image: -ms-linear-gradient(top, #1d445c, #3498db);
+    background-image: -o-linear-gradient(top, #1d445c, #3498db);
+    background-image: linear-gradient(to bottom, #1d445c, #3498db);
+    text-decoration: none;
+  }
+
+  .contact-me {
+    margin: 30px auto 20px auto;
+  }
+
+  .copyright {
+    color: bisque;
+    font-size: 15px;
+    margin: 0;
+    line-height: 8;
+
+  }
+
+  .footer-link {
+    margin: 20px 20px;
+  }
+
+  .footer-link:hover {
+    color: powderblue;
+  }
+
+  .navigation-bar {
+    height: 100px;
+    width: 100%;
+    text-align: right;
+    background-color: rgb(47, 56, 57);
+    position: relative;
+  }
+
+  .sun-cloud-img {
+    width: 6%;
+    height: 80%;
+    position: absolute;
+    left: 5%;
+    margin: 10px auto;
+  }
+
+  .credit {
+    text-align: right;
+  }
+
+  .middle-container {
+    padding: 25px;
+    
+  }
+
+  .future-forecast .today {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .future-forecast .today .day {
+    padding: 5px 15px;
+    background: rgb(47, 56, 57);
+    color: bisque;
+    border-radius: 50px;
+    text-align: center;
+  }
+
+  .future-forecast .today .temp {
+    font-size: 20px;
+    padding-top: 15px;
+  }
+
+  .future-forecast .weather-forecast {
+    display: flex;
+  }
+
+  .future-forecast .weather-forecast-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+  }
+
+  .future-forecast {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .weather-forecast .weather-forecast-item .day {
+    padding: 5px 15px;
+    background: rgb(47, 56, 57);
+    color: bisque;
+    border-radius: 50px;
+  }
+
+  
